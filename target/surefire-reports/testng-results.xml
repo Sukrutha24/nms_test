@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is present]]>
+    </line>
+    <line>
+      <![CDATA[click on login button successful]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Username entered successfuly]]>
+    </line>
+    <line>
+      <![CDATA[Password entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign in successfull !!!!]]>
+    </line>
+    <line>
+      <![CDATA[test pass]]>
+    </line>
+    <line>
+      <![CDATA[click on Add Device button successfull]]>
+    </line>
+    <line>
+      <![CDATA[test pass]]>
+    </line>
+    <line>
+      <![CDATA[click on view device button successful]]>
+    </line>
+    <line>
+      <![CDATA[test pass]]>
+    </line>
+    <line>
+      <![CDATA[click on Alarms button is successful]]>
+    </line>
+    <line>
+      <![CDATA[click on view devices is successful]]>
+    </line>
+    <line>
+      <![CDATA[Click on Dashboard button successfull]]>
+    </line>
+    <line>
+      <![CDATA[test pass]]>
+    </line>
+    <line>
+      <![CDATA[click on Add Device button successfull]]>
+    </line>
+    <line>
+      <![CDATA[Add Network Device text present]]>
+    </line>
+    <line>
+      <![CDATA[Device name entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[IP address entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Port entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Device type entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Reachable true entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Protocol entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Added new device successfully !!!!]]>
+    </line>
+    <line>
+      <![CDATA[click on view device button successful]]>
+    </line>
+    <line>
+      <![CDATA[text present]]>
+    </line>
+    <line>
+      <![CDATA[Click on next button successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15319" started-at="2018-09-19T10:55:35Z" finished-at="2018-09-19T10:55:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15319" started-at="2018-09-19T10:55:35Z" finished-at="2018-09-19T10:55:50Z">
+      <class name="test.nms.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.nms.NewTest@a67c67e]" name="beforeTest" is-config="true" duration-ms="7970" started-at="2018-09-19T10:55:35Z" finished-at="2018-09-19T10:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testCase1()[pri:1, instance:test.nms.NewTest@a67c67e]" name="testCase1" duration-ms="11" started-at="2018-09-19T10:55:43Z" finished-at="2018-09-19T10:55:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="testCase2()[pri:2, instance:test.nms.NewTest@a67c67e]" name="testCase2" duration-ms="536" started-at="2018-09-19T10:55:43Z" finished-at="2018-09-19T10:55:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on login button successful]]>
+            </line>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:3, instance:test.nms.NewTest@a67c67e]" name="testCase3" duration-ms="2288" started-at="2018-09-19T10:55:43Z" finished-at="2018-09-19T10:55:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Username entered successfuly]]>
+            </line>
+            <line>
+              <![CDATA[Password entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Sign in successfull !!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase4()[pri:4, instance:test.nms.NewTest@a67c67e]" name="testCase4" duration-ms="31" started-at="2018-09-19T10:55:46Z" finished-at="2018-09-19T10:55:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method status="PASS" signature="testCase5()[pri:5, instance:test.nms.NewTest@a67c67e]" name="testCase5" duration-ms="159" started-at="2018-09-19T10:55:46Z" finished-at="2018-09-19T10:55:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Add Device button successfull]]>
+            </line>
+            <line>
+              <![CDATA[test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method status="PASS" signature="testCase6()[pri:6, instance:test.nms.NewTest@a67c67e]" name="testCase6" duration-ms="104" started-at="2018-09-19T10:55:46Z" finished-at="2018-09-19T10:55:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on view device button successful]]>
+            </line>
+            <line>
+              <![CDATA[test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase6 -->
+        <test-method status="PASS" signature="testCase7()[pri:7, instance:test.nms.NewTest@a67c67e]" name="testCase7" duration-ms="218" started-at="2018-09-19T10:55:46Z" finished-at="2018-09-19T10:55:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Alarms button is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase7 -->
+        <test-method status="PASS" signature="testCase8()[pri:8, instance:test.nms.NewTest@a67c67e]" name="testCase8" duration-ms="190" started-at="2018-09-19T10:55:46Z" finished-at="2018-09-19T10:55:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on view devices is successful]]>
+            </line>
+            <line>
+              <![CDATA[Click on Dashboard button successfull]]>
+            </line>
+            <line>
+              <![CDATA[test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase8 -->
+        <test-method status="PASS" signature="testCase9()[pri:9, instance:test.nms.NewTest@a67c67e]" name="testCase9" duration-ms="2482" started-at="2018-09-19T10:55:46Z" finished-at="2018-09-19T10:55:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Add Device button successfull]]>
+            </line>
+            <line>
+              <![CDATA[Add Network Device text present]]>
+            </line>
+            <line>
+              <![CDATA[Device name entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[IP address entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Port entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Device type entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Reachable true entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Protocol entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Added new device successfully !!!!]]>
+            </line>
+            <line>
+              <![CDATA[click on view device button successful]]>
+            </line>
+            <line>
+              <![CDATA[text present]]>
+            </line>
+            <line>
+              <![CDATA[Click on next button successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase9 -->
+        <test-method status="PASS" signature="testCase10()[pri:10, instance:test.nms.NewTest@a67c67e]" name="testCase10" duration-ms="342" started-at="2018-09-19T10:55:49Z" finished-at="2018-09-19T10:55:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase10 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.nms.NewTest@a67c67e]" name="afterTest" is-config="true" duration-ms="961" started-at="2018-09-19T10:55:49Z" finished-at="2018-09-19T10:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.nms.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

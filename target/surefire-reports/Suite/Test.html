@@ -1,0 +1,217 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 19 16:25:35 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15319 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.nms.NewTest.testCase1()'><b>testCase1</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-1160649162" onClick='toggleBox("Output-1160649162", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1160649162" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1160649162">
+Title is present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase10()'><b>testCase10</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-1508038883" onClick='toggleBox("Output-1508038883", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1508038883" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1508038883">
+Logout successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase2()'><b>testCase2</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-736920911" onClick='toggleBox("Output-736920911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-736920911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-736920911">
+click on login button successful<br/>
+Test pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase3()'><b>testCase3</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-1766911337" onClick='toggleBox("Output-1766911337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1766911337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1766911337">
+Username entered successfuly<br/>
+Password entered successfully<br/>
+Sign in successfull !!!!<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase4()'><b>testCase4</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-968113504" onClick='toggleBox("Output-968113504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-968113504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-968113504">
+test pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase5()'><b>testCase5</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-1928301845" onClick='toggleBox("Output-1928301845", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1928301845" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1928301845">
+click on Add Device button successfull<br/>
+test pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase6()'><b>testCase6</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-1923999715" onClick='toggleBox("Output-1923999715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1923999715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1923999715">
+click on view device button successful<br/>
+test pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase7()'><b>testCase7</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-1443055846" onClick='toggleBox("Output-1443055846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1443055846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1443055846">
+click on Alarms button is successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase8()'><b>testCase8</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-2073640037" onClick='toggleBox("Output-2073640037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2073640037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2073640037">
+click on view devices is successful<br/>
+Click on Dashboard button successfull<br/>
+test pass<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+<tr>
+<td title='test.nms.NewTest.testCase9()'><b>testCase9</b><br>Test class: test.nms.NewTest<br/>
+<a href="#Output-44559647" onClick='toggleBox("Output-44559647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-44559647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-44559647">
+click on Add Device button successfull<br/>
+Add Network Device text present<br/>
+Device name entered successfully<br/>
+IP address entered successfully<br/>
+Port entered successfully<br/>
+Device type entered successfully<br/>
+Reachable true entered successfully<br/>
+Protocol entered successfully<br/>
+Added new device successfully !!!!<br/>
+click on view device button successful<br/>
+text present<br/>
+Click on next button successful<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>test.nms.NewTest@a67c67e</td></tr>
+</table><p>
+</body>
+</html>
