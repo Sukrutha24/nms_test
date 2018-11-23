@@ -21,7 +21,11 @@ public class NewTest {
 	
 	@Test(priority=1)
   public void testCase1() {
-	  //driver.get("http://10.53.67.29:6767/nms");
+<<<<<<< HEAD
+	  //driver.get("http://172.19.81.202:9090/nms");
+=======
+	  //driver.get("http://172.19.81.202:9090/nms/");
+>>>>>>> 5681bea3e1c8f338b1c209ada28d1f61e7902d1d
 	  
 	  String title = driver.getTitle();
 	  Assert.assertTrue(title.contains("NMS | Dashboard"));
@@ -30,7 +34,7 @@ public class NewTest {
   }
   @Test(priority=2)
   public void testCase2(){
-	  //driver.get("http://10.53.67.29:8282/");
+	  //driver.get("http://172.19.81.202:9090/");
 		  
 	  driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li/a/span/b")).click();
 	  Reporter.log("click on login button successful");
@@ -203,7 +207,11 @@ public class NewTest {
   public void beforeTest() {
 	  driver = new FirefoxDriver();
 	// Launch website
-      driver.navigate().to("http://10.53.67.29:6767/nms");
+<<<<<<< HEAD
+      driver.navigate().to("http://172.19.81.202:9090/nms");
+=======
+      driver.navigate().to("http://172.19.81.202:9090/nms/");
+>>>>>>> 5681bea3e1c8f338b1c209ada28d1f61e7902d1d
       driver.manage().window().maximize();
 	  
   }
