@@ -28,6 +28,17 @@ public class NewTest {
 	  Reporter.log("Title is present");
 	 	  
   }
+	
+	@Test(priority=2)
+  public void testCase2() {
+	  //driver.get("http://172.19.81.202:9090/nms");
+	  
+	  String title = driver.getTitle();
+	  Assert.assertTrue(title.contains("hjgkfdhgjfhg"));
+	  Reporter.log("Test fail");
+	 	  
+  }
+/*
   @Test(priority=2)
   public void testCase2(){
 	  //driver.get("http://172.19.81.202:9090/");
@@ -195,10 +206,10 @@ public class NewTest {
 	  driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li[2]/ul/li/ul/li[2]/a")).click();
 	  Reporter.log("Logout successfull");
 	
-	  
-	  
   }
-  
+  */
+ 
+	
   @BeforeTest
   public void beforeTest() {
 	  driver = new FirefoxDriver();
