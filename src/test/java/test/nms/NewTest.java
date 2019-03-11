@@ -35,7 +35,7 @@ public class NewTest {
 	  driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li/a/span/b")).click();
 	  Reporter.log("click on login button successful");
 	  String name = driver.findElement(By.xpath("/html/body/div/div[1]/a")).getText();
-	  Assert.assertTrue(name.contains("NMS Portal"));
+	  Assert.assertTrue(name.contains("NMS Portal123"));
 	  Reporter.log("Test pass");
   }
   @Test(priority=3)
