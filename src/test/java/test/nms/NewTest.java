@@ -39,8 +39,8 @@ public class NewTest {
 	 	  
   }
 
-  @Test(priority=2)
-  public void testCase2(){
+  @Test(priority=3)
+  public void testCase3(){
 	  //driver.get("http://172.19.81.202:9090/");
 		  
 	  driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li/a/span/b")).click();
@@ -49,8 +49,8 @@ public class NewTest {
 	  Assert.assertTrue(name.contains("NMS Portal"));
 	  Reporter.log("Test pass");
   }
-  @Test(priority=3)
-  public void testCase3(){
+  @Test(priority=4)
+  public void testCase4(){
 	  
 	  driver.findElement(By.name("username")).sendKeys("Rajath Sharma");
 	  Reporter.log("Username entered successfuly");
@@ -61,16 +61,16 @@ public class NewTest {
 	  driver.findElement(By.xpath("/html/body/div/div[2]/form/div[3]/div[2]/button")).click();
 	  Reporter.log("Sign in successfull !!!!");
   }
-  @Test(priority=4)
-  public void testCase4(){
+  @Test(priority=5)
+  public void testCase5(){
 	  
 	 String username = driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li[2]/a/span")).getText();
 	 Assert.assertTrue(username.contains("Rajath Sharma"));
 	 Reporter.log("test pass");
 	  
   }
-  @Test(priority=5)
-  public void testCase5(){
+  @Test(priority=6)
+  public void testCase6(){
 	  
 	  driver.findElement(By.xpath("/html/body/div[1]/aside[1]/section/ul/li[7]/a/span")).click();
 	  Reporter.log("click on Add Device button successfull");
@@ -78,8 +78,8 @@ public class NewTest {
 	  Assert.assertTrue(addDevice.contains("Add Network Device"));
 	  Reporter.log("test pass");
   }
-  @Test(priority=6)
-  public void testCase6(){
+  @Test(priority=7)
+  public void testCase7(){
 	  driver.findElement(By.xpath("/html/body/div[1]/aside[1]/section/ul/li[8]/a")).click();
 	  Reporter.log("click on view device button successful");
 	  String viewDevice = driver.findElement(By.xpath("/html/body/div[1]/div[1]/section[2]/div[4]/div/div/div[1]/h3")).getText();
@@ -87,16 +87,16 @@ public class NewTest {
 	  Reporter.log("test pass");
 	  
   }
-  @Test(priority=7)
-  public void testCase7(){
+  @Test(priority=8)
+  public void testCase8(){
 	  driver.findElement(By.xpath("/html/body/div[1]/aside[1]/section/ul/li[11]/a/span")).click();
 	  Reporter.log("click on Alarms button is successful");
 	  //String alarms = driver.findElement(By.xpath("/html/body/div[1]/div[1]/section[2]/div[5]/div[1]/div/div[2]/div/div[3]/div[1]")).getText();
 	  //Assert.assertTrue(alarms.contains("Critical"));
 	  //Reporter.log("test pass");
   }
-  @Test(priority=8)
-  public void testCase8(){
+  @Test(priority=9)
+  public void testCase9(){
 	  driver.findElement(By.xpath("/html/body/div[1]/aside[1]/section/ul/li[8]/a/span")).click();
 	  Reporter.log("click on view devices is successful");
 	  
@@ -109,8 +109,8 @@ public class NewTest {
 	  
 	  
   }
-  @Test(priority=9)
-  public void testCase9(){
+  @Test(priority=10)
+  public void testCase10(){
 	  
 	  String dName = "10.22.1.53";
 	  
@@ -199,8 +199,8 @@ public class NewTest {
 	  
   }
   
-  @Test(priority=10)
-  public void testCase10(){
+  @Test(priority=11)
+  public void testCase11(){
 	  	  
 	  driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li[2]/a")).click();
 	  driver.findElement(By.xpath("/html/body/div[1]/header/nav/div/ul/li[2]/ul/li/ul/li[2]/a")).click();
