@@ -38,7 +38,7 @@ public class NewTest {
 	  Reporter.log("Test fail");
 	 	  
   }
-/*
+
   @Test(priority=2)
   public void testCase2(){
 	  //driver.get("http://172.19.81.202:9090/");
@@ -207,7 +207,6 @@ public class NewTest {
 	  Reporter.log("Logout successfull");
 	
   }
-  */
  
 	
   @BeforeTest
