@@ -213,7 +213,8 @@ public class NewTest {
   public void beforeTest() {
 	  driver = new FirefoxDriver();
 	// Launch website
-      driver.navigate().to("http://13.232.233.79:8082/nms-0.0.1-SNAPSHOT/");
+      //driver.navigate().to("http://13.232.233.79:8082/nms-0.0.1-SNAPSHOT/");
+	  driver.navigate().to("http://10.53.67.14:8080/nms/");
       driver.manage().window().maximize();
 	  
   }
